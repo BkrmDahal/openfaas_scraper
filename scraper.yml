@@ -1,0 +1,12 @@
+provider:
+  name: faas
+  gateway: http://127.0.0.1:8080
+
+functions:
+  scraper:
+    lang: python3
+    handler: ./scraper
+    image: scraper:latest
+    labels:
+      "com.openfaas.scale.min": "1"
+      "com.openfaas.scale.max": "15"
