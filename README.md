@@ -91,3 +91,13 @@ curl localhost:8080/function/scraper -d '{
 }'
 ```
 
+# Grafana Dashboard
+
+#### Install 
+```sh
+docker run -d --name=grafana -p 3000:3000 grafana/grafana 
+```
+
+#### Import dashboard ID 3434
+
+![grafana](images/grafana.png)

@@ -38,7 +38,7 @@ for i in range(0, 300):
     t = Thread(target=call_predict_endpoint, args=(i,))
     t.daemon = True
     t.start()
-    time.sleep(0.05)
+    time.sleep(1)
     
     
 time.sleep(300)
