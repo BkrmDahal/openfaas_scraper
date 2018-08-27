@@ -1,6 +1,7 @@
 # openfaas_scraper
 Example of function for openfaas. This function scrape the website and return the text and word counts.
 
+![openfaas](images/openfaas.png)
 
 ## Download openfaas and make new function templates
 
